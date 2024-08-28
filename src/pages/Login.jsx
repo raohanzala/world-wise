@@ -15,9 +15,8 @@ export default function Login() {
 
   function handleSubmit(e){
 e.preventDefault()
-if(email && password){
-  login(email, password)
-}}
+if(email && password) login(email, password)
+}
 
 
   useEffect(function(){

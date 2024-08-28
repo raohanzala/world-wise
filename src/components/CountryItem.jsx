@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 
 
 CountryItem.propTypes = {
-  country : PropTypes.array,
+  country : PropTypes.any,
 }
 
 function CountryItem({ country }) {

@@ -29,7 +29,10 @@ function CountryList() {
 
   return (
     <ul className={styles.countryList}>
-      {countries.map(country=> <CountryItem country={country} key={country.id} />)}
+      {countries.map(country=>{ 
+        console.log(country);
+       return <CountryItem country={country} key={country.country} />
+      })}
     </ul>
   )
 }
